@@ -1,6 +1,6 @@
 # isomorphic-web-streams
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme) [![license](https://img.shields.io/github/license/joeltg/isomorphic-web-streams)](https://opensource.org/licenses/MIT) [![NPM version](https://img.shields.io/npm/v/isomorphic-web-streams)](https://www.npmjs.com/package/isomorphic-web-streams) ![TypeScript types](https://img.shields.io/npm/types/bisomorphic-web-streamst) ![lines of code](https://img.shields.io/tokei/lines/github/joeltg/isomorphic-web-streams)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme) [![license](https://img.shields.io/github/license/joeltg/isomorphic-web-streams)](https://opensource.org/licenses/MIT) [![NPM version](https://img.shields.io/npm/v/isomorphic-web-streams)](https://www.npmjs.com/package/isomorphic-web-streams) ![TypeScript types](https://img.shields.io/npm/types/isomorphic-web-streams) ![lines of code](https://img.shields.io/tokei/lines/github/joeltg/isomorphic-web-streams)
 
 Isomorphic web streams for Node and the browser.
 
