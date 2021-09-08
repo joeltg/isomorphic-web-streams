@@ -4,7 +4,7 @@
 
 Isomorphic web streams for Node and the browser.
 
-This library is TypeScript-native, ESM-only, and has zero dependencies. It uses [conditional exports](https://nodejs.org/api/packages.html#packages_conditional_exports) to re-export from `node:stream/web` in Node environments and re-export from the global scope in the browser. Only APIs that are implemented in Node and all major browsers are exposes; for now, **this only includes the `ReadableStream` constructor**. `WriteableStream`, `TransformStream`, and others will be added when Firefox implements them.
+This library is TypeScript-native, ESM-only, and has zero dependencies. It uses [conditional exports](https://nodejs.org/api/packages.html#packages_conditional_exports) to re-export from `node:stream/web` in Node environments and re-export from the global scope in the browser. Only APIs that are implemented in Node and all major browsers are exposed; for now, **this only includes the `ReadableStream` constructor**. `WriteableStream`, `TransformStream`, and others will be added when Firefox implements them.
 
 ## Table of Contents
 
