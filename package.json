@@ -1,6 +1,6 @@
 {
 	"name": "isomorphic-web-streams",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Isomorphic Web Streams for Node and the browser",
 	"type": "module",
 	"main": "lib/index.js",
