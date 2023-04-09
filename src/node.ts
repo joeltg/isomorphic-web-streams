@@ -1,10 +1,20 @@
-import type * as web_streams from "./web_streams.js"
+export {
+	ReadableStream,
+	WritableStream,
+	TransformStream,
 
-declare module "stream/web" {
-	const ReadableStream: web_streams.ReadableStreamConstructor
-}
+	ReadableStreamDefaultReader,
+	ReadableStreamDefaultController,
+	ReadableByteStreamController,
 
-import { ReadableStream as readable_stream } from "node:stream/web"
+	ReadableStreamBYOBReader,
+	ReadableStreamBYOBRequest,
 
-export type ReadableStream = web_streams.ReadableStream
-export const ReadableStream = readable_stream
+	WritableStreamDefaultWriter,
+	WritableStreamDefaultController,
+
+	TransformStreamDefaultController,
+
+	ByteLengthQueuingStrategy,
+	CountQueuingStrategy
+} from "node:stream/web"

@@ -1,7 +1,7 @@
 {
 	"name": "isomorphic-web-streams",
 	"version": "0.0.1",
-	"description": "Isomorphic web streams for Node and the browser",
+	"description": "Isomorphic Web Streams for Node and the browser",
 	"type": "module",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -9,10 +9,14 @@
 		"node": "./lib/node.js",
 		"default": "./lib/index.js"
 	},
+	"engines": {
+		"node": ">= 18"
+	},
 	"files": [
 		"lib"
 	],
 	"scripts": {
+		"build": "tsc",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -22,7 +26,10 @@
 	"keywords": [
 		"streams",
 		"readable",
-		"writeable"
+		"writeable",
+		"ReadableStream",
+		"WritableStream",
+		"TransformStream"
 	],
 	"author": "Joel Gustafson",
 	"license": "MIT",
@@ -31,9 +38,9 @@
 	},
 	"homepage": "https://github.com/joeltg/isomorphic-web-streams#readme",
 	"devDependencies": {
-		"typescript": "^4.4.2"
+		"typescript": "^5.0.4"
 	},
 	"dependencies": {
-		"@types/node": "^16.7.13"
+		"@types/node": "^18.15.11"
 	}
 }
